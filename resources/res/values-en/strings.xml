@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="x_capital_off">close</string>
+    <string name="x_capital_on">open</string>
+    <string name="x_countdown_tips">%s (%ss)</string>
+    <string name="x_date_picker_day">%d</string>
+    <string name="x_date_picker_year">%d</string>
+    <string name="x_loading_dialog_message">loading...</string>
+    <string name="x_time_picker_hour">%02d</string>
+    <string name="x_time_picker_minute">%02d</string>
+</resources>

@@ -1,0 +1,26 @@
+[
+  {
+    "effect_name": "expomode_00",
+    "loop_count": "1"
+  },
+  {
+    "effect_name": "expomode_01",
+    "loop_count": "1"
+  },
+  {
+    "effect_name": "expomode_02",
+    "loop_count": "8"
+  },
+  {
+    "effect_name": "expomode_03",
+    "loop_count": "10"
+  },
+  {
+    "effect_name": "expomode_04",
+    "loop_count": "2"
+  },
+  {
+    "effect_name": "expomode_05",
+    "loop_count": "10"
+  }
+]

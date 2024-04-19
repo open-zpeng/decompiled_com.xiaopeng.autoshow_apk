@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="@dimen/d21_window_width_major" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:orientation="horizontal" android:id="@+id/titleBar_view" android:layout_width="match_parent" android:layout_height="@dimen/item_height_major">
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_dialog_close" android:layout_margin="@dimen/x_dialog_close_padding" style="@style/XButton.Icon.Large.Close"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/font_size_title" android:textColor="@color/x_theme_text_01" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/testdrive_title" android:layout_centerInParent="true"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="70dp" android:layout_marginTop="43dp" android:layout_marginRight="70dp" android:layout_marginBottom="16dp">
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/testdrive_setting_layout" android:background="@drawable/llu_total_bg" android:layout_width="match_parent" android:layout_height="@dimen/item_height_major">
+            <com.xiaopeng.xui.widget.XSwitch android:id="@+id/testdrive_setting_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/switch_thumb_margin" android:layout_marginRight="@dimen/switch_thumb_margin"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="35sp" android:textColor="@color/x_theme_text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/testdrive_title"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/padding_view" android:layout_width="match_parent" android:layout_height="150dp"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:id="@+id/testdrive_detail_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:layout_marginBottom="112dp">
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/llu_layout" android:background="@drawable/llu_total_bg" android:layout_width="match_parent" android:layout_height="@dimen/item_llu_height_major" android:layout_marginBottom="16dp">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="35sp" android:textColor="@color/x_theme_text_01" android:id="@+id/llu_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/switch_thumb_margin" android:layout_marginRight="@dimen/switch_thumb_margin" android:layout_marginBottom="@dimen/llu_margin_bottom" android:text="@string/llu_title"/>
+            <com.xiaopeng.xui.widget.XTabLayout android:layout_gravity="center_vertical" android:id="@+id/llu_tab" android:layout_width="644dp" android:layout_height="78dp" android:layout_marginLeft="@dimen/switch_thumb_margin" android:layout_marginRight="@dimen/switch_thumb_margin" app:selectTab="-1" app:titleTextSize="35sp" app:titles="@array/llu_tab"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aircondition_layout" android:background="@drawable/llu_total_bg" android:layout_width="match_parent" android:layout_height="@dimen/item_height_major" android:layout_marginBottom="16dp">
+            <com.xiaopeng.xui.widget.XSwitch android:id="@+id/aircondition_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/switch_thumb_margin" android:layout_marginRight="@dimen/switch_thumb_margin"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="35sp" android:textColor="@color/x_theme_text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autoshow_aircondition"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/welcome_layout" android:background="@drawable/llu_total_bg" android:layout_width="match_parent" android:layout_height="@dimen/item_height_major">
+            <com.xiaopeng.xui.widget.XSwitch android:id="@+id/welcome_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/switch_thumb_margin" android:layout_marginRight="@dimen/switch_thumb_margin"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="35sp" android:textColor="@color/x_theme_text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autoshow_welcome"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

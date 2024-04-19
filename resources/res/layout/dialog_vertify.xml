@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="744dp" android:layout_height="600dp">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="36sp" android:textColor="@color/x_theme_text_01" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="短信验证"/>
+    <com.xiaopeng.xui.widget.XTextFields android:layout_gravity="center" android:id="@+id/input_phone_number" android:layout_marginTop="34dp" android:inputType="number" app:input_edit_hint="手机号" app:input_edit_max_length="11" style="@style/XTextFields"/>
+    <com.xiaopeng.xui.widget.XRelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XTextFields android:id="@+id/input_vertify_code" android:inputType="number" app:input_edit_hint="验证码" app:input_edit_max_length="6" style="@style/XTextFields"/>
+        <com.xiaopeng.xui.widget.XButton android:enabled="false" android:id="@+id/send_vertify" android:text="@string/send_vertify_code" android:layout_alignBaseline="@+id/input_vertify_code" android:layout_alignRight="@+id/input_vertify_code" style="@style/XButton.Ghost.Small.Positive"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <View android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XButton android:enabled="false" android:textSize="28sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/btn" android:layout_width="0dp" android:text="提交验证" android:layout_weight="1" style="@style/XButton.Flat.Large.Positive"/>
+        <com.xiaopeng.xui.widget.XButton android:textSize="28sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/btn_close" android:layout_width="0dp" android:text="关闭" android:height="106dp" android:layout_weight="1" style="@style/XButton.Flat.Large.Neutral"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>
